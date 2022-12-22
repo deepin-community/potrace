@@ -1,0 +1,51 @@
+Source: potrace
+Section: graphics
+Priority: optional
+Maintainer: Bartosz Fenski <fenio@debian.org>
+Build-Depends: debhelper (>= 9), zlib1g-dev, libtool, dh-autoreconf
+Standards-Version: 4.4.0
+Homepage: http://potrace.sourceforge.net/
+
+Package: potrace
+Section: graphics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpotrace0 (>= ${binary:Version})
+Suggests: netpbm
+Description: utility to transform bitmaps into vector graphics
+ potrace is a utility for tracing a bitmap, which means, transforming
+ a bitmap into a smooth, scalable image. The input is a bitmap (PBM, PGM,
+ PPM, or BMP format), and the default output is an encapsulated PostScript
+ file (EPS). A typical use is to create EPS files from scanned data, such as
+ company or university logos, handwritten notes, etc. The resulting image is
+ not "jaggy" like a bitmap, but smooth. It can then be rendered at any
+ resolution.
+ .
+ Potrace can currently produce the following output formats: EPS,
+ PostScript, PDF, SVG (scalable vector graphics), DXF, GeoJSON, PGM
+ (for easy antialiasing of pixel-based images), Gimppath, and
+ XFig. Additional backends might be added in the future.
+
+Package: libpotrace0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: library for tracing bitmaps
+ potrace is a utility for tracing a bitmap, which means, transforming
+ a bitmap into a smooth, scalable image.
+ .
+ libpotrace0 contains files needed to run programs that utilize the 
+ potrace library.
+
+Package: libpotrace-dev
+Section: libdevel
+Architecture: any
+Depends: libpotrace0 (= ${binary:Version}), ${misc:Depends}
+Multi-Arch: same
+Description: development files for potrace library
+ potrace is a utility for tracing a bitmap, which means, transforming
+ a bitmap into a smooth, scalable image.
+ .
+ libpotrace-dev contains header file needed to compile programs that
+ utilize the potrace library.
+

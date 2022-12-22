@@ -1,0 +1,15 @@
+potrace for Debian
+------------------
+
+Technical documentation regarding algorithm used in potrace, and its 
+library API is available at homepage of the project:
+
+A detailed technical description of how the potrace algorithm works.
+
+    http://potrace.sourceforge.net/potrace.pdf
+
+Technical documentation of the potrace library API (for developers).
+
+    http://potrace.sourceforge.net/potracelib.pdf
+
+ -- Bartosz Fenski <fenio@debian.org>, Sun,  27 Feb 2005 19:54:10 +0100

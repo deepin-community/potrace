@@ -1,0 +1,3 @@
+version=3
+http://sf.net/potrace/potrace-(.*)\.tar\.gz debian uupdate
+

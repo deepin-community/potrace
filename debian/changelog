@@ -1,0 +1,204 @@
+potrace (1.16-2) unstable; urgency=medium
+
+  * Source only upload.
+
+ -- Bartosz Fenski <fenio@debian.org>  Sat, 05 Oct 2019 10:59:41 +0200
+
+potrace (1.16-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Bumped Standards-Version.
+  * The Akamai Technologies paid volunteer days release.
+
+ -- Bartosz Fenski <fenio@debian.org>  Mon, 30 Sep 2019 09:33:12 +0200
+
+potrace (1.15-1) unstable; urgency=low
+
+  * New upstream version.
+  * The Akamai Technologies paid volunteer days release.
+  * Multiarchify patch applied (Closes: #891396)
+  * Fixes security bug CVE-2017-12067 (Closes: #870356)
+  * Fixes security bug CVE-2017-7263 (Closes: #858763)
+  * Bumped Standards-Version (no changes needed).
+
+ -- Bartosz Fenski <fenio@debian.org>  Wed, 02 May 2018 21:19:14 +0200
+
+potrace (1.14-2) unstable; urgency=low
+
+  * Stricter dependency on libpotrace (Closes: #862540)
+
+ -- Bartosz Fenski <fenio@debian.org>  Sun, 28 May 2017 11:19:02 +0200
+
+potrace (1.14-1) unstable; urgency=low
+
+  * New upstream version.
+    - Fixes invalid memory access issue (Closes: #850595)
+  * Bumped Standards-Version (no changes needed)
+
+ -- Bartosz Fenski <fenio@debian.org>  Thu, 2 Mar 2017 21:01:02 +0100
+
+potrace (1.13-3) unstable; urgency=high
+
+  * Fixes CVE-2016-8685 (Closes: #843861)
+
+ -- Bartosz Fenski <fenio@debian.org>  Sun, 8 Jan 2017 10:24:54 +0100
+
+potrace (1.13-2) unstable; urgency=low
+
+  * Put back copyright info (I've learnt new thing about DEP-5!)
+
+ -- Bartosz Fenski <fenio@debian.org>  Thu, 10 Dec 2015 13:21:54 +0100
+
+
+potrace (1.13-1) unstable; urgency=low
+
+  * The Akamai Technologies paid volunteer days release.
+  * New upstream version.
+  * Bumped Standards-Version (no changes needed)
+
+ -- Bartosz Fenski <fenio@debian.org>  Thu, 10 Dec 2015 10:37:54 +0100
+
+potrace (1.12-1) unstable; urgency=high
+
+  * New upstream version.
+    - fixes memory overflow bug CVE-2013-7437 (Closes: #778646)
+
+ -- Bartosz Fenski <fenio@debian.org>  Sun, 12 Apr 2015 10:46:32 +0200
+
+potrace (1.11-2) unstable; urgency=low
+
+  * Uses dh-autoreconf instead of autotools-dev (Closes: #732923)
+
+ -- Bartosz Fenski <fenio@debian.org>  Mon, 23 Dec 2013 20:36:32 +0100
+
+potrace (1.11-1) unstable; urgency=low
+
+  * The Akamai Technologies paid volunteer days release.
+  * New upstream version.
+  * Completely repackaged from scratch (funny experience as usual):
+    - uses new copyright format
+    - uses debhelper compatibility level 9 w/hardening options
+    - uses the newest Standards-Version
+    - fixes 11 lintian warnings and 2 errors
+  * Fixes typo in manpage. (Closes: #694492)
+
+ -- Bartosz Fenski <fenio@debian.org>  Mon, 9 Dec 2013 11:23:32 +0100
+
+potrace (1.10-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Bartosz Fenski <fenio@debian.org>  Sat, 20 Aug 2011 09:31:05 +0200
+
+potrace (1.9-1) unstable; urgency=low
+
+  * New upstream version (Closes: #607798)
+  * Includes build process improvements 
+    courtesy of Dmitry Katsubo (Closes: #592597)
+  * Removed all patches (included upstream).
+  * Switch to dpkg-source 3.0 (quilt) format.
+  * Bumped Standards-version (no changes needed).
+
+ -- Bartosz Fenski <fenio@debian.org>  Tue, 29 Mar 2011 10:52:48 +0200
+
+potrace (1.8-4) unstable; urgency=low
+
+  * *REALLY* satisfy build dependencies (Closes: #561908) 
+
+ -- Bartosz Fenski <fenio@debian.org>  Mon, 21 Dec 2009 13:58:21 +0100
+
+potrace (1.8-3) unstable; urgency=low
+
+  * Add autoconf to Build-Depends (Closes: #561908) 
+
+ -- Bartosz Fenski <fenio@debian.org>  Mon, 21 Dec 2009 09:25:40 +0100
+
+potrace (1.8-2) unstable; urgency=low
+
+  * Fixed watch file (Closes: #450067)
+  * Shipped with library (Closes: #364569)
+  * Uses quilt for patches
+  * Bumped compatibility level to 7
+  * Bumped Standards-Version to 3.8.3 
+  * Many small improvements in packaging 
+
+ -- Bartosz Fenski <fenio@debian.org>  Sun, 20 Dec 2009 10:08:02 +0100
+
+potrace (1.8-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #425543)
+  * Applied patch fixing xfig backend depth. (Closes: #426230)
+
+ -- Bartosz Fenski <fenio@debian.org>  Thu, 23 Aug 2007 13:31:01 +0200
+
+potrace (1.7-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Bartosz Fenski <fenio@debian.org>  Sun,  6 Mar 2005 09:54:02 +0100
+
+potrace (1.6-1) unstable; urgency=low
+
+  * New upstream release.
+  * Added README.Debian with information about documentation.
+  * Extended description to fix current features.
+
+ -- Bartosz Fenski <fenio@debian.org>  Sun, 27 Feb 2005 09:15:01 +0100
+
+potrace (1.5-2) unstable; urgency=low
+
+  * s/fenio@o2.pl/fenio@debian.org/
+
+ -- Bartosz Fenski <fenio@debian.org>  Mon,  3 Jan 2005 22:35:03 +0100
+
+potrace (1.5-1) unstable; urgency=low
+
+  * New "Welcome back LZW" release.
+  * debian/copyright:
+    - distinguished copyright from license
+  * debian/docs:
+    - added AUTHORS file
+  * Added debian/watch file.
+
+ -- Bartosz Fenski <fenio@o2.pl>  Sat, 17 Jul 2004 21:08:02 +0200
+
+potrace (1.4-1) unstable; urgency=low
+
+  * New upstream version.
+  * Removed README.Debian because potrace now checks for compress support
+    at run-time.
+  * debian/rules:
+    - removed --disable-compress from configure
+  * debian/docs:
+    - removed doc/potrace.pdf and doc/potrace.ps
+
+ -- Bartosz Fenski <fenio@o2.pl>  Sun, 07 Mar 2004 15:30:09 +0200
+
+potrace (1.3-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Bartosz Fenski <fenio@o2.pl>  Sun, 18 Jan 2004 12:05:12 +0200
+
+potrace (1.2-1) unstable; urgency=low
+
+  * New upstream version.
+    
+ -- Bartosz Fenski <fenio@o2.pl>  Thu, 24 Dec 2003 15:21:12 +0200
+
+potrace (1.1-2) unstable; urgency=low
+
+  * Added --disable-compress to configure options. (Closes: #211517)
+  * Name of maintainer converted to ASCII to avoid problems with wrong 
+    interpretation by katie. Previous entry of changelog was modified too.
+    
+ -- Bartosz Fenski <fenio@o2.pl>  Thu, 18 Sep 2003 10:21:18 +0200
+
+potrace (1.1-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #208508)
+  * Modified doc/potrace.1.in to comply Policy
+    (upstream author notified)
+
+ -- Bartosz Fenski <fenio@o2.pl>  Wed,  5 Sep 2003 00:10:03 +0200
+
